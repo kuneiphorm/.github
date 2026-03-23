@@ -1,6 +1,8 @@
 ![Java](https://img.shields.io/badge/Java-21-blue)
 ![License](https://img.shields.io/badge/License-Apache_2.0-blue)
 
+[![kuneiphorm-gradle](https://img.shields.io/github/v/release/kuneiphorm/kuneiphorm-gradle?include_prereleases&label=kuneiphorm-gradle)](https://github.com/kuneiphorm/kuneiphorm-gradle/releases)
+
 
 # Kuneiphorm
 
