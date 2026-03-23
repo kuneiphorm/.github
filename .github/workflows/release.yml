@@ -30,6 +30,9 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
 
       - run: ./gradlew ${{ inputs.gradle-tasks }}
+        env:
+          GITHUB_ACTOR: ${{ github.actor }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - run: ./gradlew publish
         env:
